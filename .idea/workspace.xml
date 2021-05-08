@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d843f13d-35a6-46c8-86d9-43b2c49d0ce8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1rfNRJyryc69cxb1REKaots30vk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/starter-code/sass/abstracts" />
+      <recent name="$PROJECT_DIR$/starter-code/sass" />
+      <recent name="$PROJECT_DIR$/starter-code/sass/base" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.watchsaass">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/meet-landing-page/starter-code/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="watchsaass" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/starter-code/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="watchsaass" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.watchsaass" />
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d843f13d-35a6-46c8-86d9-43b2c49d0ce8" name="Default Changelist" comment="" />
+      <created>1619363175025</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619363175025</updated>
+      <workItem from="1619363176358" duration="731000" />
+      <workItem from="1619423686160" duration="6294000" />
+      <workItem from="1619554429364" duration="2174000" />
+      <workItem from="1619589442975" duration="4395000" />
+      <workItem from="1619609373975" duration="1251000" />
+      <workItem from="1619698574770" duration="18620000" />
+      <workItem from="1619763268002" duration="15242000" />
+      <workItem from="1619795466618" duration="1424000" />
+      <workItem from="1619848693608" duration="152000" />
+      <workItem from="1619848870711" duration="265000" />
+      <workItem from="1620019421733" duration="5186000" />
+      <workItem from="1620048898903" duration="3790000" />
+      <workItem from="1620063443177" duration="6479000" />
+      <workItem from="1620107904619" duration="21000" />
+      <workItem from="1620393347942" duration="7409000" />
+      <workItem from="1620453723279" duration="14000" />
+      <workItem from="1620472100145" duration="4600000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

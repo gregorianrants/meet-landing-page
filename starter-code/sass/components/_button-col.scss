@@ -1,0 +1,13 @@
+.button-col{
+  @media (max-width: $tablet-width) {
+    &\@TB {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+    }
+    &__item\@TB:not(:last-child) {
+      margin-bottom: 16px;
+    }
+  }
+}

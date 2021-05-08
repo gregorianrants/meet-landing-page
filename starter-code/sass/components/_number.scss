@@ -1,0 +1,28 @@
+.number{
+  &__line{
+    height: 84px;
+    width: 1px;
+    margin: auto;
+    background-color: $light-grey;
+  }
+
+  &__circle{
+    border-radius: 1000px;
+    width: 56px;
+    height: 56px;
+    margin: auto;
+    border: 1px solid $light-grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+  }
+
+  &__number{
+    line-height: 16px;
+    text-align: center;
+    font-weight: $font-weight-black;
+    color: $grey;
+
+  }
+}

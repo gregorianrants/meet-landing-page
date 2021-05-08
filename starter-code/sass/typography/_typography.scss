@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;900&display=swap');
+
+.heading--primary {
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 900;
+  font-size: rem(40);
+  line-height: rem(44);
+}
+
+.heading--secondary {
+  font-weight: $font-weight-black;
+  font-size: rem(16);
+  line-height: rem(26);
+  color: $turquoise;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+
+}
+
+.heading--tertiary{
+  font-weight: $font-weight-black;
+  font-size: rem(32);
+  line-height: rem(36);
+  color: $black;
+  @media (min-width: $tablet-width) {
+    font-size: rem(40);
+  }
+}
+
+
+.paragraph {
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 500;
+  color: #87879D;
+  font-size: 16px;
+  line-height: 26px;
+  @media (min-width: $desktop-width) {
+    font-size: rem(18);
+  }
+}
+
+.button {
+  font-size: rem(16);
+  line-height: rem(26);
+  font-weight: 900;
+  color: white;
+}
+
+.text-white{
+  color: $off-white;
+}
+
+
+.number-text {
+  //i have put this in the number text componenet may move to hear
+}

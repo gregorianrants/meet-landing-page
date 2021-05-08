@@ -1,0 +1,36 @@
+.image-grid{
+  $font-size: 16;
+  font-size: rem($font-size);
+  @media (min-width: $tablet-width) {
+    display: flex;
+
+  }
+
+  &__image:not(:last-child){
+    margin-right: 25px;
+  }
+
+  &__row{
+    display: flex;
+    @media (min-width: $tablet-width) {
+      flex: 0 1 50%;
+      min-width: 0;
+    }
+
+  }
+
+  &__row:not(:last-child){
+    margin-bottom:  25px;
+    @media (min-width: $tablet-width) {
+      margin-bottom: 0;
+      margin-right: 25px;
+    }
+  }
+
+  &__image{
+    min-width: 0;
+    flex: 0 1 50%;
+    border-radius: 5px;
+  }
+}
+

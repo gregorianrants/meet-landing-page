@@ -1,0 +1,38 @@
+.hero-banner {
+  @media (min-width: $desktop-width) {
+    &\@dt {
+      display: flex;
+      align-items: stretch;
+    }
+  }
+
+  &__left\@dt {
+    @media (min-width: $desktop-width) {
+      flex: 1 1 auto;
+
+      background-image: url("./assets/desktop/image-hero-left.png");
+      background-position: right;
+      background-size: auto 100%;
+      background-repeat: no-repeat;
+    }
+  }
+
+  &__middle\@dt{
+    @media (min-width: $desktop-width) {
+      max-width: initial;
+      flex: 0 0 540px;
+      margin: 0 88px;
+    }
+  }
+
+  &__right\@dt {
+    @media (min-width: $desktop-width) {
+      flex: 1 1 auto;
+
+      background-image: url("./assets/desktop/image-hero-right.png");
+      background-position: left;
+      background-size: auto 100%;
+      background-repeat: no-repeat;
+    }
+  }
+}

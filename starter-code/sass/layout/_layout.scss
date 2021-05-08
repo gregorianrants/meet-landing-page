@@ -1,0 +1,84 @@
+.l{
+  &__logo{
+    display: block;
+    padding-top: 48px;
+    padding-bottom: 54px;
+    margin: 0 auto;
+
+    @media (min-width: $tablet-width){
+      padding-bottom: 68px;
+    }
+  }
+
+  &__hero-image{
+    @media (max-width: $desktop-width){
+      &\@DT{
+        margin-bottom: 48px;
+
+        @media (min-width: $tablet-width){
+          margin-bottom: 72px;
+        }
+      }
+    }
+    /*&\@DT{
+      @media (max-width: $desktop-width) {
+        margin-bottom: 48px;
+      }
+    }*/
+  }
+
+  &__hero-banner\@dt{
+    @media (min-width: $desktop-width){
+        margin-bottom: 110px;
+    }
+  }
+
+  &__section-1\@DT{
+    @media (max-width: $desktop-width) {
+      margin: 0 6% 64px;
+
+      @media (min-width: $tablet-width) {
+        max-width: 457px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 80px;
+      }
+    }
+  }
+
+  &__number-1{
+    margin-bottom: 64px;
+  }
+
+  &__image-grid{
+    padding: 0 6% 64px 6%;
+    margin: 0 auto;
+    max-width: 1110px;
+    box-sizing: content-box;
+    @media (min-width: $tablet-width) {
+      padding-bottom: 48px;
+    }
+  }
+
+  &__section-2{
+    box-sizing: content-box;
+    padding: 0 6% 0;
+    margin: 0 auto 64px auto;
+    @media (min-width: $tablet-width) {
+      margin-bottom: 80px;
+    }
+  }
+
+  &__number-2{
+    margin-top: -28px;//pay attention this is to offset the relative position see bellow
+    position: relative;
+    bottom: -28px;
+  }
+}
+
+
+
+
+
+
+

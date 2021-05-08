@@ -1,0 +1,28 @@
+.section-1{
+  text-align: center;
+
+  &__title{
+    margin-bottom: 24px;
+    @media (min-width: $desktop-width) {
+      margin-top: 57px;
+      margin-bottom: 34px;
+    }
+  }
+
+  &__paragraph{
+    margin: 0 0 32px;
+  }
+
+  &__buttons{
+    margin: 0 auto 0 auto;
+  }
+}
+
+
+
+
+
+
+
+
+

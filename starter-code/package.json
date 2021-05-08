@@ -1,0 +1,11 @@
+{
+  "name": "starter-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watchsaass": "sass --watch sass/main.scss style.css"
+  },
+  "author": "",
+  "license": "ISC"
+}
