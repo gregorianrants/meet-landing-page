@@ -85,6 +85,7 @@ body {
 @media (min-width: 768px) {
   .l__section-2 {
     margin-bottom: 80px;
+    max-width: 573px;
   }
 }
 .l__number-2 {
@@ -148,8 +149,10 @@ body {
 @media (max-width: 1200px) {
   .hero-image\@DT {
     background-image: url("./assets/tablet/image-hero.png");
-    height: 153px;
-    background-size: cover;
+    min-height: 150px;
+    height: min(40vw, 303px);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
     background-position: center;
   }
 }
@@ -266,51 +269,45 @@ body {
 
 .section-3 {
   text-align: center;
-  padding: 92px 6% 72px;
   background-image: linear-gradient(90deg, rgba(77, 150, 169, 0.9), rgba(77, 150, 169, 0.9)), url("./assets/mobile/image-footer.jpg");
   background-size: cover;
 }
-@media (min-width: 768px) {
+@media (max-width: 1200px) {
+  .section-3 {
+    padding: 92px 6% 71px;
+  }
+  .section-3__title {
+    margin-bottom: 24px;
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .section-3__paragraph {
+    margin-bottom: 32px;
+  }
+  .section-3__button {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 1200px) and (min-width: 768px) {
   .section-3 {
     padding-bottom: 66px;
   }
-}
-.section-3__title {
-  padding: 0 0 24px;
-  flex: 0 0 350px;
-}
-.section-3__paragraph {
-  margin: 0 0 32px;
-  flex: 0 0 350px;
-}
-@media (min-width: 768px) {
+  .section-3__inner {
+    max-width: 573px;
+    margin: auto;
+  }
+  .section-3__title {
+    margin-bottom: 32px;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .section-3__paragraph {
     margin-bottom: 40px;
   }
-}
-.section-3__button {
-  margin: 0 auto 0;
-}
-@media (min-width: 1200px) {
-  .section-3 {
-    display: flex;
-    justify-content: space-between;
-    padding: 116px 165px 104px;
-    align-items: flex-start;
-  }
-  .section-3__title {
-    margin: 0;
-    flex: 0 0 350px;
-    text-align: left;
-    font-size: 2.5rem;
-  }
-  .section-3__paragraph {
-    margin: 0;
-    flex: 0 0 350px;
-    text-align: left;
-  }
   .section-3__button {
-    margin: 0;
+    margin: 0 auto;
   }
 }
 

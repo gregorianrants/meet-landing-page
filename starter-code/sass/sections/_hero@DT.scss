@@ -1,11 +1,11 @@
 .hero-image\@DT{
   @media (max-width: $desktop-width) {
     background-image: url("./assets/tablet/image-hero.png");
-    height: 153px;
-    background-size: cover;
+    min-height: 150px;
+    height: min(40vw,303px);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
     background-position: center;
   }
-
-  
 }
 
